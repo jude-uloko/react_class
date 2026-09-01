@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.job-card {
+  width: 260px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.job-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.job-card__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7.5px;
+}
+
+.log_b {
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.job-card__logo svg {
+  width: 18px;
+  height: 18px;
+  fill: #ffffff;
+}
+
+.job-card__save {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.job-card__save svg {
+  width: 14px;
+  height: 14px;
+  stroke: #6b7280;
+  fill: none;
+}
+
+.job-card__company {
+  margin-top: 14px;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-left: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.job-card__posted {
+  font-weight: 400;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.job-card__title {
+  margin: 4px 0 12px;
+  justify-self: left;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.job-card__tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.job-card__tag {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(230, 226, 226);
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+
+.job-card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-card__price {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card__price strong {
+  font-size: 16px;
+  color: #111827;
+}
+
+.job-card__location {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+.job-card__apply {
+  border: none;
+  background: #111827;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.body {
+  margin-bottom: 80px;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+.save {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(182, 181, 181);
+  color: black;
+  font-weight: bold;
+}
+
+.save_dark {
+  background-color: rgb(102, 101, 101);
+}
