@@ -1,4 +1,4 @@
-const JobCards = [
+const JobCards_data = [
   {
     logo: 'https://cdn.simpleicons.org/amazon',
     title: 'Senior UI/UX Designer',
@@ -73,4 +73,4 @@ const JobCards = [
   },
 ]
 
-export default JobCards;
+export default JobCards_data;

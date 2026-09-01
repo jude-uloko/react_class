@@ -7,7 +7,7 @@ import {
   coverImage,
   avatarImage,
   badgeImage,
-  JobCard
+  JobCard,
 } from './assets'
 
 function App() {
