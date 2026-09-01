@@ -18,7 +18,7 @@ function App() {
       title: 'Senior UI/UX Designer',
       work_time: 'Part-Time',
       work_level: 'Seni Level',
-      location: '',
+      location: 'behil india',
       rate: '$120/hr',
       time: '5',
       save: 'Save',
