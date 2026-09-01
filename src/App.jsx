@@ -17,12 +17,12 @@ function App() {
 
   return (
     <>
-      <ProfileCard 
+      {/* <ProfileCard 
         name='jude' role='coder' avatarImage={avatarImage}
         coverImage={coverImage} badge='Top performer'
         badgeImage={badgeImage} rating={4.8}  
         price={'1000'} hours={10} period='monthly'
-      />
+      /> */}
 
       <div className='cad_grd'>
         {JobCards.map((Job, index) => (
