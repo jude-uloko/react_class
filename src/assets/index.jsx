@@ -4,6 +4,7 @@ import coverImage from './cover-image.jpg';
 import avatarImage from './avatar.jpg';
 import badgeImage from './badge.jpg';
 import JobCard from './JobCard.jsx';
+import JobCards_data from './JobCard_data.jsx';
 
 export {
   ProfileCard,
@@ -11,5 +12,6 @@ export {
   coverImage,
   avatarImage,
   badgeImage,
-  JobCard
+  JobCard,
+  JobCards_data
 };
