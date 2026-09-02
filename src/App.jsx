@@ -8,7 +8,9 @@ import {
   avatarImage,
   badgeImage,
   JobCard,
-  JobCards_data
+  JobCards_data,
+  Card1,
+  Card2
 } from './assets'
 
 function App() {
@@ -42,6 +44,12 @@ function App() {
           />
         ))} 
       </div>
+
+      <div className='cad_cen'>
+        <Card1 />
+        <Card2 />
+      </div>
+      
     </>
   )
 }

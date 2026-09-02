@@ -1,0 +1,203 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 60px 24px;
+  background: #ececec;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.card {
+  width: 260px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.banner {
+  height: 110px;
+  background: linear-gradient(135deg, #1f8a3d 0%, #6fd15a 40%, #d9f28a 70%, #2f9e4a 100%);
+  position: relative;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 20px;
+  bottom: -28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.avatar svg { width: 34px; height: 34px; }
+
+.card-body {
+  padding: 40px 20px 20px;
+  background: #fff;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.handle {
+  font-size: 13px;
+  color: #8a8a8a;
+  margin: 2px 0 0;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.follow-btn {
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bookmark-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #444;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  padding: 0 4px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #9a9a9a;
+  margin-top: 2px;
+}
+
+.cta {
+  margin-top: 22px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 24px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  justify-content: center;
+  position: relative;
+}
+
+.cta .arrow-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+}
+
+/* ===== Green Card Variant ===== */
+.card.green {
+  background: linear-gradient(160deg, #1f8a3d 0%, #4fbf4f 35%, #2f9e4a 60%, #1a6e35 100%);
+}
+
+.card.green .banner {
+  background: transparent;
+  height: 130px;
+}
+
+.card.green .card-body {
+  background: transparent;
+  padding-top: 34px;
+}
+
+.card.green .name,
+.card.green .stat-value {
+  color: #fff;
+}
+
+.card.green .handle,
+.card.green .stat-label {
+  color: rgba(255,255,255,0.75);
+}
+
+.card.green .follow-btn {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+  backdrop-filter: blur(4px);
+}
+
+.card.green .bookmark-btn {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  color: #fff;
+}
+
+.card.green .cta {
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+}
+
+.butbl {
+  background-color: black;
+  color: white;
+}

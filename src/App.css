@@ -8,3 +8,12 @@
   background-color: rgb(77, 75, 75);
   padding: 48px;
 }
+
+.cad_cen {
+  display: grid;
+  padding: 20px;
+  justify-self: center;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
