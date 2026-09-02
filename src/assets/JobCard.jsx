@@ -11,7 +11,7 @@ export default function JobCard({
         <div class="job-card__top">
           <span className='log_b'>
             <div class="job-card__logo">
-              <img src={logo} width='24' height='24' alt="" />
+              <img src={logo} width='24' height='24' alt="jj" />
             </div>
           </span>
 
